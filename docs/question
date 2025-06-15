@@ -1,0 +1,61 @@
+1. Problem Statement: Why This Matters
+2. Main Goal: What we want you to build
+3. Who and Where: Target Users & Lending Funnel
+4. Data Sources to Consider (Brainstorm and Pick What Makes Sense)
+5. What to Deliver:
+6. How We’ll Measure Success
+7. How to Test These Ideas Later
+1. Problem Statement: Why This Matters
+Right now, we set the interest rate (ROI) for each loan user mostly using fixed rules or set ranges. This can mean we either miss out on possible revenue or lose out on users who find the rate too high and drop off. Our CRED members are financially sharp, so every loan decision is a moment to make things better for both our users and CRED.
+The Main Trade-Off:
+If we bump up the ROI, CRED could earn more per loan, but fewer people might actually take the loan.
+If we keep the ROI too low, we might see more conversions, but we’re leaving money on the table.
+The Opportunity:
+Imagine a system that figures out the “just right” interest rate for each user based on their behaviour, profile, and likely reaction at that point in time. This could mean more people saying “yes” to loans, with CRED earning more overall.
+Dynamic nature of this model/platform is crucial given the same user will have different sensitivities to the pricing at different points in time.
+2. Main Goal: What we want you to build
+Main Objective:
+Create a model or system that sets the interest rate smartly for each user as they enter the lending funnel, boosting CRED’s revenue without scaring off good users.
+Bonus Wins:
+Spot user groups that are extra sensitive to ROI.
+Demonstrate how this system could improve loan conversions overall.
+3. Who and Where: Target Users & Lending Funnel
+Our Users:
+CRED members are urban, digitally-savvy, high credit scores.
+Which Product:
+CRED Cash
+Do’s and Don’ts:
+Ensure compliance at each and every step
+4. Data Sources to Consider (Brainstorm and Pick What Makes Sense)
+The list below is just to spark ideas. Pick data points you think help, but explain your choices and always put compliance first.
+CRED Data:
+CCBP data points, BBPS data points, UPI data points, Garage data points, CRED Money data points
+Credit & Financial Info:
+Bureau information
+App Behavior:
+Which pages/features they visit, how long they check out loan offers, playing with interest calculators, etc.
+SMS, Email data:
+SMS, email data of loan enquiries etc
+Demographics & Devices (Careful here):
+Age range, city type, device type (only if relevant and within rules).
+Past Experiments:
+Past A/B tests on interest rates, results of earlier “shadow” runs.
+5. What to Deliver:
+A basic working demo that shows your method for choosing ROI for users.
+A solid idea or model (even a simple model would work).
+Simulated test results using past or dummy data, showing the trade-off between ROI and conversions.
+Outline of how you’d pull in and process the needed data.
+Clear write-up of what you assumed, why you picked your data/features, and where your approach might need tuning.
+6. How We’ll Measure Success
+How much extra revenue could CRED see?
+Can we keep or boost loan conversion rates at higher ROIs?
+How well can you predict if a user will take a loan at a given interest rate?
+Are all user groups benefitting, or are there blind spots?
+No spike in bad loans or missed repayments.
+7. How to Test These Ideas Later
+A/B Test:
+Try the new model with some users, keep the old way for others, see which wins.
+Shadow Test:
+Run your model in the background; compare its picks to the current process without showing users yet.
+Slow Rollout:
+Start small, monitor closely, and scale if all looks good.
